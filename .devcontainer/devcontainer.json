@@ -23,7 +23,18 @@
         "VisualStudioExptTeam.vscodeintellicode",
         "codezombiech.gitignore"
       ],
-      "settings": {}
+      "settings": {
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+          },
+          "zsh": {
+            "path": "/usr/bin/zsh"
+          }
+        },
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      }
     }
   }
 }
